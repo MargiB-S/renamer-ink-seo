@@ -10,7 +10,32 @@
   <meta name="keywords" content="rinominatore automatico file, rinominare file in massa, rename file batch">
 
   <!-- Stile moderno, simile alla tua app -->
+   
   <style>
+
+    .title-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    .title-icon {
+      width: 48px;
+      height: auto;
+    }
+
+    .sections-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .button-wrapper {
+    text-align: center;
+    margin-top: 30px;
+    }    
+
     body {
       font-family: 'Inter', Arial, sans-serif;
       display: flex;
@@ -42,9 +67,10 @@
       border-radius: 12px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.08);
     }
+
     a.button {
       display: inline-block;
-      margin-top: 20px;
+      margin: 0px auto;
       padding: 12px 28px;
       background-color: #6c63ff;
       color: white;
@@ -64,15 +90,23 @@
       margin-bottom: 15px;
     }
   </style>
+
 </head>
 <body>
 
-  <h1>Rinominatore automatico di file</h1>
+  <div class="title-wrapper">
+    <img src="icon.png" alt="Icona cartella" class="title-icon">
+    <h1>Rinominatore automatico di file</h1>
+  </div>
+
   <p class="subtitle">Rinomina rapidamente più file con prefissi personalizzati e numerazione sequenziale.</p>
 
+  <div class="section-wrapper">
   <section>
     <p><strong>Renamer Ink</strong> è un rinominatore automatico di file online per chi deve gestire molte cartelle con file dai nomi poco chiari. Permette di rinominare più file contemporaneamente, direttamente nel browser e senza installare nulla.</p>
-    <a class="button" href="https://renamer-ink.base44.app/">Apri il rinominatore automatico</a>
+    <div class="button-wrapper">
+      <a class="button" href="https://renamer-ink.base44.app/">Apri il rinominatore automatico</a>
+    </div>
   </section>
 
   <section>
@@ -82,7 +116,7 @@
       <li>Rinominare tutti i file di una cartella in massa</li>
       <li>Aggiungere prefissi personalizzati</li>
       <li>Numerare i file in sequenza</li>
-      <li>Filtrare per estensione (es. .jpg, .png, .pdf)</li>
+      <li>Filtrare per estensione (es. .jpg, .png, .pdf, .mp3, .mp4)</li>
     </ul>
   </section>
 
@@ -95,7 +129,9 @@
       <li>Filtra i file per estensione se necessario</li>
       <li>Avvia la rinomina automatica</li>
     </ol>
-    <a class="button" href="https://renamer-ink.base44.app/">Usa Renamer Ink online</a>
+    <div class="button-wrapper">
+      <a class="button" href="https://renamer-ink.base44.app/">Usa Renamer Ink online</a>
+    </div>
   </section>
 
   <section>
@@ -110,8 +146,11 @@
   <section>
     <h2>Chi può usarlo</h2>
     <p>Renamer Ink è ideale per studenti, fotografi, creator, uffici o chiunque debba rinominare file in massa rapidamente e senza complicazioni.</p>
-    <a class="button" href="https://renamer-ink.base44.app/">Prova ora</a>
+    <div class="button-wrapper">
+      <a class="button" href="https://renamer-ink.base44.app/">Inizia a rinominare i file</a>
+    </div>
   </section>
+  </div>
 
 </body>
 </html>
